@@ -1,10 +1,12 @@
 {
-  "homepage": "https://Keegan-Omel.github.io/XRPL-Wallet",
   "name": "xrpl-wallet",
   "private": true,
+  "homepage": "https://Keegan-Omel.github.io/XRPL-Wallet",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
