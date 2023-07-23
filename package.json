@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Keegan-Omel.github.io/XRPL-Wallet",
   "name": "xrpl-wallet",
   "private": true,
   "version": "0.0.0",
@@ -10,28 +11,29 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-       "dotenv": "^16.0.3",
-        "xrpl": "^2.7.0-beta.2"
+    "xrpl": "^2.7.0-beta.2"
   },
   "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "@vitejs/plugin-react": "^4.0.1",
+    "crypto-browserify": "^3.12.0",
     "eslint": "^8.44.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
+    "events": "^3.3.0",
+    "gh-pages": "^5.0.0",
+    "https-browserify": "^1.0.0",
+    "rollup-plugin-polyfill-node": "^0.12.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
     "typescript": "^5.0.2",
-    "vite": "^4.4.0",
-      "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
-        "crypto-browserify": "^3.12.0",
-        "events": "^3.3.0",
-        "https-browserify": "^1.0.0",
-        "rollup-plugin-polyfill-node": "^0.12.0",
-        "stream-browserify": "^3.0.0",
-        "stream-http": "^3.2.0"
+    "vite": "^4.4.0"
   }
 }
